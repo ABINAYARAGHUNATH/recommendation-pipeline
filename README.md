@@ -50,3 +50,7 @@ See `reports/results.md` for the model comparison (popularity baseline vs. SVD).
 - Features and aggregates computed from the training set only
 - One shared `build_features()` function for training and prediction
 - Invalid rows are quarantined with reasons, not silently dropped
+
+## Screenshots
+![Prefect run](reports/prefect_run.png)
+![MLflow runs](reports/mlflow_runs.png)
