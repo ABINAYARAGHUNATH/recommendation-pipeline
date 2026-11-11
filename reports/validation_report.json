@@ -1,0 +1,11 @@
+{
+  "total_rows": 100005,
+  "valid_rows": 100000,
+  "error_rows": 5,
+  "by_reason": {
+    "duplicate": 4,
+    "invalid_rating": 1,
+    "orphan_user": 1,
+    "invalid_timestamp": 1
+  }
+}

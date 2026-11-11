@@ -1,0 +1,10 @@
+data_url: https://files.grouplens.org/datasets/movielens/ml-100k.zip
+paths: {raw: data/raw, processed: data/processed, features: data/features,
+        errors: data/errors, models: models, reports: reports}
+test_ratio: 0.2
+relevance_threshold: 4
+k: 10
+n_factors: 20
+seed: 42
+inject_noise: true
+mlflow_experiment: recsys-pipeline

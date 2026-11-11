@@ -1,0 +1,6 @@
+user_id,item_id,rating,timestamp,reason
+877,381,9,882677345,duplicate;invalid_rating;
+99999,602,3,878694269,orphan_user;
+94,431,4,-5,duplicate;invalid_timestamp;
+416,875,2,876696938,duplicate;
+500,182,2,883873556,duplicate;
