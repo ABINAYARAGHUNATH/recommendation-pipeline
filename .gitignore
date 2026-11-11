@@ -2,3 +2,5 @@ venv/
 mlruns/
 __pycache__/
 data/raw/
+mlflow.db
+mlruns/
