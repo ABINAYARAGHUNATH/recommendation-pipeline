@@ -6,6 +6,8 @@ End-to-end, reproducible pipeline: ingestion, validation, preparation, transform
 Python 3.12, pandas, scikit-learn, SciPy, MLflow (tracking), Prefect (orchestration). Dataset: MovieLens 100K.
 
 ## Architecture
+![Architecture diagram](reports/architecture_diagram.png)
+
 ```mermaid
 flowchart LR
   A[Ingestion] --> B[Validation] --> C[Preparation + time split] --> D[Transformation] --> E[Feature management]
